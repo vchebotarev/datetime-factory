@@ -19,5 +19,8 @@
         "psr-4": {
             "Chebur\\DateTimeFactory\\": "src"
         }
+    },
+    "require": {
+        "php": "^7.1.3"
     }
 }
