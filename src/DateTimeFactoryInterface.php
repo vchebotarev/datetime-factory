@@ -15,5 +15,5 @@ interface DateTimeFactoryInterface
     /**
      * @throws InvalidArgumentException
      */
-    public static function createDateTimeFromFormat(string $format, string $time, ?DateTimeZone $timezone=null): DateTimeInterface;
+    public static function createDateTimeFromFormat(string $format, string $time, ?DateTimeZone $timezone = null): DateTimeInterface;
 }
